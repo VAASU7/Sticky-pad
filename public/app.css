@@ -1,0 +1,36 @@
+body{
+    background-color:greenyellow;
+    margin: 0;
+  }
+  #app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,200px);
+    padding: 24px;
+    gap: 24px;
+  }
+  .note{
+    height: 200px;
+    box-sizing: border-box;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px;
+    resize: none;
+    outline: none;
+    font-size: 16px;
+  }
+  .add{
+    height: 200px;
+    border: none;
+    outline: none;
+    background: rgb(0, 0, 0,0.1);
+    border-radius: 10px;
+    font-size: 120px;
+    color: greenyellow;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .add:hover{
+    background: rgb(0,0,0,0.2);
+  }
+  
